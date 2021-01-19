@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Tracker</title>
+    <script src="vantracker.js"></script>
+</head>
+<body>
+
+    <table>
+    <tr>
+        <td>
+            License Plate:
+        </td> 
+        <td>
+            <input type="text" id="license_plate">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            VIN #:
+        </td> 
+        <td>
+            <input type="text" id="vin_number">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Company:
+        </td> 
+        <td>
+            <input type="text" id="company">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Model:
+        </td> 
+        <td>
+            <input type="text" id="model">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Cargo Capacity (cubic cm):
+        </td>
+        <td>
+            <input type="text" id="cargo">
+        </td>
+    </tr>
+
+
+    </table>
+
+    <button onclick="getFormData()">Submit data</button>
+</body>
+</html>

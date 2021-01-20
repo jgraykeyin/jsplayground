@@ -11,6 +11,12 @@ function getFormData() {
     let creditcard = document.getElementById("creditcard").value;
     let snuggly_num = document.getElementById("snuggly_num").value;
 
+    // Let's make sure the snuggly_num is actually a number first.
+    // If it's not a number, we'll keep prompting until we get one.
+    while (isNaN(snuggly_num) == true) {
+        snuggly_num = prompt("Please enter a valid number: ");
+    }
+
     // Setting the price for a single snuggly
     let snuggly_price = 29.99;
 

@@ -35,12 +35,32 @@ function getFormData() {
     // Calculate the shipping cost
     let shipping_cost = shipping_per_unit * snuggly_num;
 
-    // Calculate the subtotal 
+    // Calculate the subtotal, taxes and total 
     let subtotal = snuggly_total + shipping_cost;
+    let sales_tax = 0.15 * subtotal;
+    let total = subtotal + sales_tax;
 
-    // Displaying values to make sure things are working so far...
-    console.log(shipping_cost);
-    console.log(snuggly_total);
-    console.log(subtotal);
+    // Calculate the credit card fee
+    let cc_fee = 0.03 * total;
+
+
+    // Display all the inputs and calculations
+    console.log("Customer name: " + customer_name);
+    console.log("Address: " + address);
+    console.log("City: " + city);
+    console.log("Province: " + province);
+    console.log("Postal Code: " + postalcode);
+    console.log("Phone Number: " + phonenumber);
+    console.log("Credit Card #: " + creditcard);
+    console.log("Snugglies Ordered: " + snuggly_num);
+
+    // Making sure each number is limited to two numbers after the decimal by using the toFixed() function
+    console.log("Snuggly Price: $" + snuggly_price.toFixed(2));
+    console.log("Snuggly Total: $" + snuggly_total.toFixed(2));
+    console.log("Shipping: $" + shipping_cost.toFixed(2));
+    console.log("Subtotal: $" + subtotal.toFixed(2));
+    console.log("Total Order Cost: $" + total.toFixed(2));
+    console.log("Credit card company fee: $" + cc_fee.toFixed(2));
+    
 }
 

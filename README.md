@@ -4,7 +4,7 @@
 * nlchocolate.html
 * dom_nlchoc.js
 
-**The Snuggly Company IPO (in progress) :**
+**The Snuggly Company IPO (complete) :**
 * snuggly.html
 * snuggly.js
 

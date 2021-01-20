@@ -8,6 +8,5 @@
 * snuggly.html
 * snuggly.js
 
-**Daniel Bob Van Tracker IPO (incomplete) :**
-* vantracker.html
+**Daniel Bob Van Tracker IPO (complete) :**
 * vantracker.js

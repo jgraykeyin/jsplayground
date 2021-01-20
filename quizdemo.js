@@ -1,5 +1,9 @@
 function buidlQuiz() {
 
+    const quizContainer = document.getElementById("quiz");
+    const resultsContainer = document.getElementById("results");
+    const submitButton = document.getElementById("submit");
+
     // Setup all our questions & answers into a list of objects.
     const myQuestions = [
         {
@@ -35,20 +39,19 @@ function buidlQuiz() {
             for (letter in currentQuestion.answers) {
 
                 answers.push(
-                    `<p>Question number: ${questionNumber}<br />
-                    ${letter} - ${currentQuestion.answers[letter]}
-                    </p>`
+                    `<br />${letter}) ${currentQuestion.answers[letter]}`
                 );
             }
 
             output.push(
-                `<div class="question"> ${currentQuestion.question} </div>
+                `<div class="question"><br />${currentQuestion.question} </div>
                 <div class="answers"> ${answers.join('')} </div>`
             );
 
         }
     );
 
+    console.log(output);
     quizContainer.innerHTML = output.join('');
 
 
@@ -56,12 +59,8 @@ function buidlQuiz() {
 
 function showResults() {}
 
-const quizContainer = document.getElementById("quiz");
-const resultsContainer = document.getElementById("results");
-const submitButton = document.getElementById("submit");
-
 // display the quiz
 buidlQuiz();
 
 // on submit, show the results
-submitButton.addEventListener('click', showResults);
+// submitButton.addEventListener('click', showResults);

@@ -1,5 +1,10 @@
 # Justin's Javascript Playground
 
+**Payroll Calculations (in progress) :**
+Rewriting a python program in Javascript
+* payroll.html
+* payroll.js
+
 **Multiple-Choice Quiz demo (in progress) :**
 * quizdemo.html
 * quizdemo.js

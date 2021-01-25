@@ -6,6 +6,77 @@
     <title>Payroll Calculations</title>
 </head>
 <body>
+
+    <!-- Creating a table that has 1 row and 2 columns. -->
+    <!-- Then I'm putting a table in each column. -->
+    <table class="tableFrame">
+        <caption>Payroll Calculations</caption>
+        <tr>
+            <td>
+                <!-- First sub-table -->
+                <table class="subFrame">
+                    <tr>
+                        <td>Employee Number:</td>
+                        <td><input type="text" id="emp_num"></td>
+                    </tr>
+                    <tr>
+                        <td>Employee Name:</td>
+                        <td><input type="text" id="emp_name"></td>
+                    </tr>
+                    <tr>
+                        <td>Monday Sales:</td>
+                        <td><input type="text" id="monday"></td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday Sales:</td>
+                        <td><input type="text" id="tuesday"></td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday Sales:</td>
+                        <td><input type="text" id="wednesday"></td>
+                    </tr>
+                    <tr>
+                        <td>Thursday Sales:</td>
+                        <td><input type="text" id="thursday"></td>
+                    </tr>
+                    <tr>
+                        <td>Friday Sales:</td>
+                        <td><input type="text" id="friday"></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Second sub-table -->
+                <table class="subFrame">
+                    <tr>
+                        <td>Total Sales:</td>
+                        <td><input type="text" id="total_sales" placeholder="$0.00" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Commission:</td>
+                        <td><input type="text" id="comm" placeholder="$0.00" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Base Salary:</td>
+                        <td><input type="text" id="base_salary" placeholder="$0.00" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Gross Pay:</td>
+                        <td><input type="text" id="gross_pay" placeholder="$0.00" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Income Tax:</td>
+                        <td><input type="text" id="income_tax" placeholder="$0.00" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Net Pay:</td>
+                        <td><input type="text" id="net_pay" placeholder="$0.00" disabled></td>
+                    </tr>
+
+                </table>                
+            </td>
+        </tr>
+    </table>
     
 </body>
 </html>

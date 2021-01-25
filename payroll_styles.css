@@ -1,0 +1,10 @@
+.tableFrame {
+    background-color: pink;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.subFrame {
+    border: 1px solid grey;
+    padding: 4px;
+}

@@ -1,9 +1,11 @@
 # Justin's Javascript Playground
 
-**Payroll Calculations (in progress) :**
+**Payroll Calculations (complete) :**
 Rewriting a python program in Javascript
 * payroll.html
 * payroll.js
+* payroll_styles.css
+* images/80s_pattern2.jpg
 
 **Multiple-Choice Quiz demo (in progress) :**
 * quizdemo.html

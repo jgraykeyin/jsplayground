@@ -1,7 +1,18 @@
+body {
+    background-image: url(images/80s_pattern2.jpg);
+    background-repeat: repeat;
+}
+
 .tableFrame {
     background-color: pink;
     border: 1px solid black;
     padding: 10px;
+    box-shadow: 5px 10px lightslategrey;
+}
+
+.tableFrame caption {
+    background-color: lightskyblue;
+    border: 1px solid black;
 }
 
 .subFrame {

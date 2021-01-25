@@ -38,8 +38,28 @@ function calculate_payroll() {
     let thursday = parseFloat(document.querySelector("#thursday").value);
     let friday = parseFloat(document.querySelector("#friday").value);
 
-    /* TODO: Add input validation to make sure all values are actual numbers */
-    let total_sales = monday + tuesday + wednesday + thursday + friday;
+    /* Creating an object of all the daily sales values so I can loop through 
+    each value and check if they're all numbers for validation */
+    dayList = {
+        "Monday":monday,
+        "Tuesday":tuesday,
+        "Wednesday":wednesday,
+        "Thursday":thursday,
+        "Friday":friday
+    }
+
+    /* If any of the values in our object is not a number, we'll prompt for a valid number */
+    for (const [key, value] of Object.entries(dayList)) {
+        console.log(`${key}: ${value}`);
+        while (isNaN(dayList[key])) {
+            new_value = parseFloat(prompt(`Please enter a valid number for ${key}`));
+            dayList[key] = new_value
+            document.querySelector(`#${key.toLowerCase()}`).value = new_value;            
+        }
+    }
+
+    /* Now that we have all real numbers, we can add them up to get a total sales */
+    let total_sales = dayList["Monday"] + dayList["Tuesday"] + dayList["Wednesday"] + dayList["Thursday"] + dayList["Friday"];
 
     let commission = total_sales * 0.15;
 

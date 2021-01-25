@@ -6,13 +6,16 @@ body {
 .tableFrame {
     background-color: pink;
     border: 1px solid black;
-    padding: 10px;
-    box-shadow: 5px 10px lightslategrey;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 5px 10px rgba(0, 0, 0,0.3);
 }
 
 .tableFrame caption {
     background-color: lightskyblue;
     border: 1px solid black;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 .subFrame {

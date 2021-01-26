@@ -8,8 +8,11 @@ Rewriting a python program in Javascript
 * payroll_styles.css
 * images/80s_pattern2.jpg
 
+**Rock Paper Scissor (in progress) :**
+* bonus/roshambo.js
+
 **Boomerang Triples Bonus (complete) :**
-* boomerang.js
+* bonus/boomerang.js
 
 **Multiple-Choice Quiz demo (in progress) :**
 * quizdemo.html

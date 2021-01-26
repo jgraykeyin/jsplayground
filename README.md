@@ -10,6 +10,7 @@ Rewriting a python program in Javascript
 
 **Rock Paper Scissor (in progress) :**
 * bonus/roshambo.js
+* bonys/roshambo.html
 
 **Boomerang Triples Bonus (complete) :**
 * bonus/boomerang.js

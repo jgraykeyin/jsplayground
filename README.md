@@ -1,8 +1,5 @@
 # Justin's Javascript Playground
 
-**Boomerang Triples (complete) :**
-* boomerang.js
-
 **Payroll Calculations (complete) :**
 Rewriting a python program in Javascript
 ![Screenshot](https://github.com/jgraykeyin/jsplayground/blob/main/images/payroll_screenshot.png)
@@ -11,6 +8,8 @@ Rewriting a python program in Javascript
 * payroll_styles.css
 * images/80s_pattern2.jpg
 
+**Boomerang Triples Bonus (complete) :**
+* boomerang.js
 
 **Multiple-Choice Quiz demo (in progress) :**
 * quizdemo.html

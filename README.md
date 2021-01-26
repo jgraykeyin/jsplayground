@@ -1,5 +1,8 @@
 # Justin's Javascript Playground
 
+**Boomerang Triples (complete) :**
+* boomerang.js
+
 **Payroll Calculations (complete) :**
 Rewriting a python program in Javascript
 ![Screenshot](https://github.com/jgraykeyin/jsplayground/blob/main/images/payroll_screenshot.png)

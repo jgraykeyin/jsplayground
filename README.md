@@ -8,7 +8,13 @@ Rewriting a python program in Javascript
 * payroll_styles.css
 * images/80s_pattern2.jpg
 
-**Rock Paper Scissor (in progress) :**
+**Payroll Calculator in CSS Grid (in progress) :**
+* payroll_grid.html
+* payroll_grid.js
+* payroll_grid.css
+* images/90s_pattern.jpg
+
+**Rock Paper Scissor (complete) :**
 * bonus/roshambo.js
 * bonys/roshambo.html
 

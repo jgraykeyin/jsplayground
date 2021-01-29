@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="payroll_grid.js"></script>
+    <link rel="stylesheet" href="payroll_grid.css" />
+</head>
+<body>
+
+    <content id="main_frame" class="main_frame">
+    <header class="titlebar" id="titlebar">
+        <div class="header_box"></div>
+        <div class="header_text">Payroll Calculator</div>
+    </header>
+
+    <form class="main_ui_container">
+        <fieldset class="ui_input_container">
+            <legend>Enter Data</legend>
+
+            <div class="input_wrapper">
+                <label for="emp_num">Employee Number: </label>
+                <input type="text" id="emp_num" name="emp_num" placeholder="Employee Number" />
+            </div>
+            <div class="input_wrapper">
+                <label for="emp_name">Employee Name: </label>
+                <input type="text" id="emp_name" name="emp_name" placeholder="Employee Name" />
+            </div>
+            <div class="input_wrapper">
+                <label for="monday_sales">Monday Sales: </label>
+                <input type="text" id="monday_sales" name="monday_sales" placeholder="Monday Sales" />
+            </div>
+            <div class="input_wrapper">
+                <label for="tuesday_sales">Tuesday Sales: </label>
+                <input type="text" id="tuesday_sales" name="tuesday_sales" placeholder="Tuesday Sales" />
+            </div>
+            <div class="input_wrapper">
+                <label for="wednesday_sales">Wednesday Sales: </label>
+                <input type="text" id="wednesday_sales" name="wednesday_sales" placeholder="Wednesday Sales" />
+            </div>
+            <div class="input_wrapper">
+                <label for="thursday_sales">Thursday Sales: </label>
+                <input type="text" id="thursday_sales" name="thursday_sales" placeholder="Thursday Sales" />
+            </div>
+            <div class="input_wrapper">
+                <label for="friday_sales">Friday Sales: </label>
+                <input type="text" id="friday_sales" name="friday_sales" placeholder="Friday Sales" />
+            </div>
+        </fieldset>
+
+        <fieldset class="ui_output_container">
+            <legend>Payroll Results</legend>
+
+            <div class="results box-1">
+                <span class="results_title">Total Sales</span>
+                <span class="results_value" id="total_sales">$0.00</span>
+            </div>
+            <div class="results box-2">
+                <span class="results_title">Comission</span>
+                <span class="results_value" id="comission">$0.00</span>
+            </div>
+            <div class="results box-3">
+                <span class="results_title">Base Salary</span>
+                <span class="results_value" id="base_salary">$0.00</span>
+            </div>
+            <div class="results box-4" >
+                <span class="results_title">Gross Pay</span>
+                <span class="results_value"id="gross_pay">$0.00</span>
+            </div>
+            <div class="results box-5">
+                <span class="results_title">Income Tax</span>
+                <span class="results_value id="income_tax"">$0.00</span>
+            </div>
+            <div class="results box-6">
+                <span class="results_title">Net Pay</span>
+                <span class="results_value" id="net_pay">$0.00</span>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="ui_controls_container">
+            <legend>Controls</legend>
+            <button type="button" id="btn_calc">Calculate</button>
+            <button type="button" id="btn_clear">Clear</button>
+        </fieldset>
+    </form>
+    </content>
+    
+</body>
+</html>

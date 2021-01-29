@@ -75,12 +75,12 @@ function calculate_payroll() {
     let net_pay = gross_pay - income_tax;
 
     // Now we can output all our values into the desired locations
-    document.querySelector("#total_sales").value = `$${total_sales.toFixed(2)}`;
-    document.querySelector("#commission").value = `$${commission.toFixed(2)}`;
-    document.querySelector("#base_salary").value = `$${base_salary.toFixed(2)}`;
-    document.querySelector("#gross_pay").value = `$${gross_pay.toFixed(2)}`;
-    document.querySelector("#income_tax").value = `$${income_tax.toFixed(2)}`;
-    document.querySelector("#net_pay").value = `$${net_pay.toFixed(2)}`;
+    document.querySelector("#total_sales").innerHTML = `$${total_sales.toFixed(2)}`;
+    document.querySelector("#commission").innerHTML = `$${commission.toFixed(2)}`;
+    document.querySelector("#base_salary").innerHTML = `$${base_salary.toFixed(2)}`;
+    document.querySelector("#gross_pay").innerHTML = `$${gross_pay.toFixed(2)}`;
+    document.querySelector("#income_tax").innerHTML = `$${income_tax.toFixed(2)}`;
+    document.querySelector("#net_pay").innerHTML = `$${net_pay.toFixed(2)}`;
 
 }
 

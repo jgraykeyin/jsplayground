@@ -54,7 +54,7 @@ function calculate_payroll() {
         while (isNaN(dayList[key])) {
             new_value = parseFloat(prompt(`Please enter a valid number for ${key}`));
             dayList[key] = new_value
-            document.querySelector(`#${key.toLowerCase()}`).value = new_value;            
+            document.querySelector(`#${key.toLowerCase()}_sales`).value = new_value;            
         }
     }
 

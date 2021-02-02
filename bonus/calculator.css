@@ -1,0 +1,110 @@
+
+body {
+    background-image: url("images/tile_70s.jpg");
+}
+
+.main_frame {
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    max-width: 600px;
+    display: grid;
+    grid-template-areas:
+    "output output output output"
+    "btn-1 btn-2 btn-3 op-plus"
+    "btn-1 btn-2 btn-3 op-minus"
+    "btn-4 btn-5 btn-6 op-multiply"
+    "btn-4 btn-5 btn-6 op-divide"
+    "btn-7 btn-8 btn-9 op-equals"
+    "btn-7 btn-8 btn-9 op-ce"
+    "btn-0 btn-0 btn-0 op-dot";
+    box-shadow: 10px 10px rgba(0, 0, 0,0.4);
+}
+
+.output {
+    background-color: darkslategray;
+    color: greenyellow;
+    font-family: 'VT323', monospace;
+    text-shadow: 1px 1px 10px lime;
+    padding: 10px;
+    font-size: 42px;
+    text-align: right;
+    grid-area: output;
+}
+
+.number_button {
+    background-image: linear-gradient(rgb(185, 185, 185), rgb(216, 216, 216));
+    padding: 6px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.operator {
+    background-color: orange;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#btn-1 {
+    grid-area: btn-1;
+
+}
+#btn-2 {
+    grid-area: btn-2;
+}
+#btn-3 {
+    grid-area: btn-3;
+}
+#btn-4 {
+    grid-area: btn-4;
+}
+#btn-5 {
+    grid-area: btn-5;
+}
+#btn-6 {
+    grid-area: btn-6;
+}
+#btn-7 {
+    grid-area: btn-7;
+}
+#btn-8 {
+    grid-area: btn-8;
+}
+#btn-9 {
+    grid-area: btn-9;
+}
+
+#btn-0 {
+    grid-area: btn-0;
+}
+
+#op-plus {
+    grid-area: op-plus;
+}
+
+#op-minus {
+    grid-area: op-minus;
+}
+
+#op-multiply {
+    grid-area: op-multiply;
+}
+
+#op-divide {
+    grid-area: op-divide;
+}
+
+#op-equals {
+    grid-area: op-equals;
+}
+
+#op-ce {
+    grid-area: op-ce;
+}
+
+#op-dot {
+    grid-area: op-dot;
+}
